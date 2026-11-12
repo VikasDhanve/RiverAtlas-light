@@ -2,7 +2,7 @@
 
 ## 2026-11-12 GitHub 发布
 
-发布对象：https://github.com/VikasDhanve/RiverAtlas-light（私有），目标`main`。内容为当前最新30页及相关资源、测试和说明；72项完整回归通过，凭据特征／超大文件预检通过。`npm test`覆盖全部*.test.cjs；浅色版的原“无.git”检查改为忽略依赖与备份的发布边界检查。所有运行凭据、备份和node_modules排除，未开启Pages或改变原仓库可见性。远端提交号及一致性验收记录在知识库GitHub同步记录和本地backups证据中。
+发布对象：https://github.com/VikasDhanve/RiverAtlas-light（公开，用户已确认保持公开），目标`main`。内容为当前最新30页及相关资源、测试和说明；72项完整回归通过，凭据特征／超大文件预检通过。`npm test`覆盖全部*.test.cjs；浅色版的原“无.git”检查改为忽略依赖与备份的发布边界检查。所有运行凭据、备份和node_modules排除，未开启Pages或改变原仓库可见性。远端提交号及一致性验收记录在知识库GitHub同步记录和本地backups证据中。
 
 ## 2026-11-12 独立浅色投影版
 

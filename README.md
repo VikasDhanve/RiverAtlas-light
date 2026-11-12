@@ -2,7 +2,7 @@
 
 ## GitHub 仓库
 
-- 本项目（私有）：[RiverAtlas-light](https://github.com/VikasDhanve/RiverAtlas-light)，分支`main`。
+- 本项目（公开）：[RiverAtlas-light](https://github.com/VikasDhanve/RiverAtlas-light)，分支`main`。
 - 深浅两版为独立项目，运行时均不需要另一个目录；本地`index.html`是离线入口，仓库链接不等同于在线部署地址。
 - 本轮发布前完整回归72项通过；不上传node_modules、备份、环境文件及运行日志。
 - 深色版：[RiverAtlas](https://github.com/VikasDhanve/RiverAtlas)；浅色版：[RiverAtlas-light](https://github.com/VikasDhanve/RiverAtlas-light)。
