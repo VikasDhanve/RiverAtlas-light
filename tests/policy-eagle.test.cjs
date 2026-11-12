@@ -1,0 +1,15 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),{chromium}=require('playwright'),{pathToFileURL}=require('url'),path=require('path');const url=pathToFileURL(path.resolve(__dirname,'../index.html')).href;
+test('11/12页文字自然顶排，20页政策tab复用鹰眼且切回程序保留原行为',async()=>{
+ const b=await chromium.launch({channel:'chrome'}),errors=[];
+ try{for(const width of [1920,390]){
+  const p=await b.newPage({viewport:{width,height:width===390?844:1080},offline:true,reducedMotion:'reduce'});p.on('pageerror',e=>errors.push(e.message));
+  for(const n of [11,12]){await p.goto(url+'#p'+n);const flow=await p.locator('.basemap-layout > .copy-column').evaluate(n=>{const [a,b]=n.children;return {justify:getComputedStyle(n).justifyContent,gap:getComputedStyle(n).gap,distance:b.offsetTop-a.offsetTop-a.offsetHeight}});assert.equal(flow.justify,'flex-start');assert.equal(flow.gap,'24px');assert(Math.abs(flow.distance-24)<=1);await p.screenshot({path:`backups/background-tabs-20261112/policy-eagle-p${n}-${width}.png`,fullPage:width===390});}
+  await p.goto(url+'#p20');assert(await p.locator('.process-layout').isVisible());assert(!(await p.locator('.eagle-reader').isVisible()));
+  await p.getByRole('button',{name:'政策文件',exact:true}).click();await p.locator('.eagle-viewport img').evaluate(i=>i.decode());assert(await p.locator('.eagle-reader').isVisible());assert.equal(await p.locator('.eagle-zoom output').innerText(),'100%');assert.equal(await p.locator('.gallery-tabs button').count(),2);
+  await p.locator('.eagle-zoom-in').click();await p.locator('.eagle-zoom-in').click();await p.locator('.eagle-sheet img').scrollIntoViewIfNeeded();const r=await p.locator('.eagle-sheet img').boundingBox();await p.mouse.move(r.x+r.width*.5,r.y+r.height*.2);const before=await p.locator('.eagle-lens').getAttribute('style');await p.mouse.move(r.x+r.width*.5,r.y+r.height*.8);assert.notEqual(await p.locator('.eagle-lens').getAttribute('style'),before);assert.equal(await p.locator('#media-loupe').count(),0);
+  for(const id of [35,36]){await p.locator('.gallery-tabs button[data-asset="'+id+'"]').click();await p.locator('.eagle-viewport img').evaluate(i=>i.decode());assert.equal(await p.locator('.eagle-viewport img').getAttribute('data-asset'),String(id));await p.getByRole('button',{name:'查看原图',exact:true}).click();await p.locator('#original-image').evaluate(i=>i.decode());assert(await p.locator('#image-dialog').isVisible());await p.keyboard.press('Escape');}
+  await p.screenshot({path:`backups/background-tabs-20261112/policy-eagle-p20-${width}.png`,fullPage:width===390});
+  await p.getByRole('button',{name:'程序演示',exact:true}).click();assert(await p.locator('.process-layout').isVisible());assert(!(await p.locator('.eagle-reader').isVisible()));await p.getByRole('button',{name:'政策文件',exact:true}).click();assert((await p.locator('.eagle-viewport img').boundingBox()).width>0);
+  assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));assert.equal(await p.locator('#page-count').innerText(),'20 / 30');await p.close();
+ }assert.deepEqual(errors,[]);}finally{await b.close();}
+});

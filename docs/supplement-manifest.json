@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-06",
+  "sourceDirectory": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材\\工作底图",
+  "inputs": [
+    {
+      "file": "P020240115558465557641.pdf",
+      "bytes": 1537109,
+      "sha256": "fd086f189fb46b7c07a0468254c9131ecebc7d0df86bac8250ba8819abecb515"
+    },
+    {
+      "file": "大沙河登记单元（210200331000003）底图三调.pdf",
+      "bytes": 2435938,
+      "sha256": "389223db82c48320218818251515356ad73fe8e46768dcefa1fe852e2149dd8b"
+    },
+    {
+      "file": "大沙河登记单元（210200331000003）底图公共管制.pdf",
+      "bytes": 3266747,
+      "sha256": "1c5296dcff0e4d709523c38eaa3682ef7be744806cc03a087dd4d383a70d51fc"
+    },
+    {
+      "file": "大沙河登记单元（210200331000003）底图影像.pdf",
+      "bytes": 5709747,
+      "sha256": "ac3c39b90a5427ffa6b3591e33e00768812ecccc462f22a516851dae50e874a9"
+    },
+    {
+      "file": "大沙河登记单元（210200331000003）底图权属.pdf",
+      "bytes": 829068,
+      "sha256": "e1df9060e31ec88a9287104df44b487dcd5867341ae986b4fba3aaafd10c93fb"
+    },
+    {
+      "file": "流程图.png",
+      "bytes": 188259,
+      "sha256": "481c30a147a475b4b294259a27c3b0abcb8e9913e6a840df797f6f532a7bb5ad"
+    }
+  ],
+  "assets": [
+    {
+      "id": 101,
+      "path": "assets/supplement/asset-101.png",
+      "displayPath": "assets/supplement/asset-101-view.png",
+      "caption": "南京清流河 · 自然资源登记簿封面（外地样例）",
+      "source": "P020240115558465557641.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 102,
+      "path": "assets/supplement/asset-102.png",
+      "displayPath": "assets/supplement/asset-102-view.png",
+      "caption": "南京清流河 · 清流河登记信息（外地样例）",
+      "source": "P020240115558465557641.pdf",
+      "page": 2,
+      "rotation": 0
+    },
+    {
+      "id": 103,
+      "path": "assets/supplement/asset-103.png",
+      "displayPath": "assets/supplement/asset-103-view.png",
+      "caption": "南京清流河 · 权属状况信息（外地样例）",
+      "source": "P020240115558465557641.pdf",
+      "page": 3,
+      "rotation": 0
+    },
+    {
+      "id": 104,
+      "path": "assets/supplement/asset-104.png",
+      "displayPath": "assets/supplement/asset-104-view.png",
+      "caption": "南京清流河 · 自然状况信息（外地样例）",
+      "source": "P020240115558465557641.pdf",
+      "page": 4,
+      "rotation": 0
+    },
+    {
+      "id": 105,
+      "path": "assets/supplement/asset-105.png",
+      "displayPath": "assets/supplement/asset-105-view.png",
+      "caption": "南京清流河 · 自然状况续表（外地样例）",
+      "source": "P020240115558465557641.pdf",
+      "page": 5,
+      "rotation": 0
+    },
+    {
+      "id": 106,
+      "path": "assets/supplement/asset-106.png",
+      "displayPath": "assets/supplement/asset-106-view.png",
+      "caption": "南京清流河 · 清流河登记单元图（外地样例）",
+      "source": "P020240115558465557641.pdf",
+      "page": 6,
+      "rotation": 0
+    },
+    {
+      "id": 107,
+      "path": "assets/supplement/asset-107.png",
+      "displayPath": "assets/supplement/asset-107-view.png",
+      "caption": "大沙河 · 卫星 / 正射影像",
+      "source": "大沙河登记单元（210200331000003）底图影像.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 108,
+      "path": "assets/supplement/asset-108.png",
+      "displayPath": "assets/supplement/asset-108-view.png",
+      "caption": "大沙河 · 范围与现势",
+      "source": "大沙河登记单元（210200331000003）底图三调.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 109,
+      "path": "assets/supplement/asset-109.png",
+      "displayPath": "assets/supplement/asset-109-view.png",
+      "caption": "大沙河 · 权属与成果",
+      "source": "大沙河登记单元（210200331000003）底图权属.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 110,
+      "path": "assets/supplement/asset-110.png",
+      "displayPath": "assets/supplement/asset-110-view.png",
+      "caption": "大沙河 · 管制与保护",
+      "source": "大沙河登记单元（210200331000003）底图公共管制.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 111,
+      "path": "assets/supplement/workflow.png",
+      "caption": "项目实施流程原图",
+      "source": "流程图.png",
+      "rotation": 0
+    }
+  ]
+}

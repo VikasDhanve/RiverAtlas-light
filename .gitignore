@@ -1,0 +1,17 @@
+**/node_modules/
+**/.impeccable/review/
+**/__pycache__/
+*.pyc
+*.log
+*.zip
+*.7z
+*.rar
+历史版本/
+backups/
+backup/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+dist/

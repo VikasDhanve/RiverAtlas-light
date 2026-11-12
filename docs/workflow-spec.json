@@ -1,0 +1,872 @@
+{
+  "nodes": [
+    {
+      "id": "prepare",
+      "label": "前期准备",
+      "x": 55,
+      "y": 155,
+      "w": 330,
+      "h": 155,
+      "phase": 0,
+      "kind": "main",
+      "lines": [
+        "前期准备"
+      ]
+    },
+    {
+      "id": "basemap",
+      "label": "绘制工作底图",
+      "x": 55,
+      "y": 405,
+      "w": 330,
+      "h": 78,
+      "phase": 0,
+      "kind": "main",
+      "lines": [
+        "绘制工作底图"
+      ]
+    },
+    {
+      "id": "preunit",
+      "label": "预划登记单元",
+      "x": 55,
+      "y": 590,
+      "w": 330,
+      "h": 78,
+      "phase": 0,
+      "kind": "main",
+      "lines": [
+        "预划登记单元"
+      ]
+    },
+    {
+      "id": "indoor",
+      "label": "内业调查",
+      "x": 500,
+      "y": 135,
+      "w": 286,
+      "h": 66,
+      "phase": 1,
+      "kind": "main",
+      "lines": [
+        "内业调查"
+      ]
+    },
+    {
+      "id": "related",
+      "label": "关联信息调查",
+      "x": 500,
+      "y": 253,
+      "w": 286,
+      "h": 66,
+      "phase": 1,
+      "kind": "main",
+      "lines": [
+        "关联信息调查"
+      ]
+    },
+    {
+      "id": "verify",
+      "label": "调查核实",
+      "x": 500,
+      "y": 371,
+      "w": 286,
+      "h": 70,
+      "phase": 1,
+      "kind": "main",
+      "lines": [
+        "调查核实"
+      ]
+    },
+    {
+      "id": "mapping",
+      "label": "调查成果上图、图件编制",
+      "x": 520,
+      "y": 686,
+      "w": 650,
+      "h": 60,
+      "phase": 1,
+      "kind": "main",
+      "lines": [
+        "调查成果上图、图件编制"
+      ]
+    },
+    {
+      "id": "database",
+      "label": "数据建库",
+      "x": 1400,
+      "y": 200,
+      "w": 340,
+      "h": 86,
+      "phase": 2,
+      "kind": "main",
+      "lines": [
+        "数据建库"
+      ]
+    },
+    {
+      "id": "revision",
+      "label": "审核意见修改",
+      "x": 1400,
+      "y": 390,
+      "w": 340,
+      "h": 86,
+      "phase": 2,
+      "kind": "main",
+      "lines": [
+        "审核意见修改"
+      ]
+    },
+    {
+      "id": "organization",
+      "label": "组织准备",
+      "x": 69,
+      "y": 254,
+      "w": 92,
+      "h": 40,
+      "phase": 0,
+      "kind": "detail",
+      "lines": [
+        "组织准备"
+      ]
+    },
+    {
+      "id": "technical",
+      "label": "技术准备",
+      "x": 174,
+      "y": 254,
+      "w": 92,
+      "h": 40,
+      "phase": 0,
+      "kind": "detail",
+      "lines": [
+        "技术准备"
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "资料准备",
+      "x": 279,
+      "y": 254,
+      "w": 92,
+      "h": 40,
+      "phase": 0,
+      "kind": "detail",
+      "lines": [
+        "资料准备"
+      ]
+    },
+    {
+      "id": "naturalSurvey",
+      "label": "自然资源自然状况调查",
+      "x": 900,
+      "y": 125,
+      "w": 355,
+      "h": 40,
+      "phase": 1,
+      "kind": "detail",
+      "lines": [
+        "自然资源自然状况调查"
+      ]
+    },
+    {
+      "id": "ownershipSurvey",
+      "label": "自然资源权属状况调查",
+      "x": 900,
+      "y": 177,
+      "w": 355,
+      "h": 40,
+      "phase": 1,
+      "kind": "detail",
+      "lines": [
+        "自然资源权属状况调查"
+      ]
+    },
+    {
+      "id": "boundaryCheck",
+      "label": "登记单元界线核实",
+      "x": 900,
+      "y": 305,
+      "w": 355,
+      "h": 40,
+      "phase": 1,
+      "kind": "detail",
+      "lines": [
+        "登记单元界线核实"
+      ]
+    },
+    {
+      "id": "naturalCheck",
+      "label": "自然资源自然状况核实",
+      "x": 900,
+      "y": 357,
+      "w": 355,
+      "h": 40,
+      "phase": 1,
+      "kind": "detail",
+      "lines": [
+        "自然资源自然状况核实"
+      ]
+    },
+    {
+      "id": "ownershipCheck",
+      "label": "自然资源权属状况核实",
+      "x": 900,
+      "y": 409,
+      "w": 355,
+      "h": 40,
+      "phase": 1,
+      "kind": "detail",
+      "lines": [
+        "自然资源权属状况核实"
+      ]
+    },
+    {
+      "id": "relatedCheck",
+      "label": "关联信息核实调查",
+      "x": 900,
+      "y": 461,
+      "w": 355,
+      "h": 40,
+      "phase": 1,
+      "kind": "detail",
+      "lines": [
+        "关联信息核实调查"
+      ]
+    },
+    {
+      "id": "supplement",
+      "label": "外业补充调查",
+      "x": 770,
+      "y": 567,
+      "w": 255,
+      "h": 60,
+      "phase": 1,
+      "kind": "exception",
+      "lines": [
+        "外业补充调查"
+      ]
+    },
+    {
+      "id": "dispute",
+      "label": "划定权属争议区",
+      "x": 1080,
+      "y": 567,
+      "w": 205,
+      "h": 60,
+      "phase": 1,
+      "kind": "exception",
+      "lines": [
+        "划定权属争议区"
+      ]
+    },
+    {
+      "id": "acceptance",
+      "label": "调查成果、数据库质量检查、验收",
+      "x": 1400,
+      "y": 580,
+      "w": 340,
+      "h": 110,
+      "phase": 2,
+      "kind": "detail",
+      "lines": [
+        "调查成果、数据库",
+        "质量检查、验收"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "prepare",
+      "to": "basemap",
+      "d": "M220 310L220 405",
+      "phase": 0,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          220,
+          310
+        ],
+        [
+          220,
+          405
+        ]
+      ]
+    },
+    {
+      "from": "basemap",
+      "to": "preunit",
+      "d": "M220 483L220 590",
+      "phase": 0,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          220,
+          483
+        ],
+        [
+          220,
+          590
+        ]
+      ]
+    },
+    {
+      "from": "preunit",
+      "to": "indoor",
+      "d": "M385 629L433.0 629.0Q443 629 443.0 619.0L443.0 178.0Q443 168 453.0 168.0L500 168",
+      "phase": 1,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          385,
+          629
+        ],
+        [
+          443,
+          629
+        ],
+        [
+          443,
+          168
+        ],
+        [
+          500,
+          168
+        ]
+      ]
+    },
+    {
+      "from": "indoor",
+      "to": "related",
+      "d": "M643 201L643 253",
+      "phase": 1,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          643,
+          201
+        ],
+        [
+          643,
+          253
+        ]
+      ]
+    },
+    {
+      "from": "related",
+      "to": "verify",
+      "d": "M643 319L643 371",
+      "phase": 1,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          643,
+          319
+        ],
+        [
+          643,
+          371
+        ]
+      ]
+    },
+    {
+      "from": "verify",
+      "to": "mapping",
+      "d": "M643 441L643.0 514.0Q643 524 633.0 524.0L580.0 524.0Q570 524 570.0 534.0L570 686",
+      "phase": 1,
+      "kind": "main",
+      "label": "成果无异议",
+      "labelAt": [
+        610,
+        500
+      ],
+      "lines": null,
+      "points": [
+        [
+          643,
+          441
+        ],
+        [
+          643,
+          524
+        ],
+        [
+          570,
+          524
+        ],
+        [
+          570,
+          686
+        ]
+      ],
+      "anchor": "end"
+    },
+    {
+      "from": "mapping",
+      "to": "database",
+      "d": "M1170 716L1333.0 716.0Q1343 716 1343.0 706.0L1343.0 253.0Q1343 243 1353.0 243.0L1400 243",
+      "phase": 2,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          1170,
+          716
+        ],
+        [
+          1343,
+          716
+        ],
+        [
+          1343,
+          243
+        ],
+        [
+          1400,
+          243
+        ]
+      ]
+    },
+    {
+      "from": "database",
+      "to": "revision",
+      "d": "M1570 286L1570 390",
+      "phase": 2,
+      "kind": "main",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          1570,
+          286
+        ],
+        [
+          1570,
+          390
+        ]
+      ]
+    },
+    {
+      "from": "prepare",
+      "to": "organization",
+      "d": "M220 222L220.0 230.0Q220 238 212.0 238.0L123.0 238.0Q115 238 115.0 246.0L115 254",
+      "phase": 0,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          220,
+          222
+        ],
+        [
+          220,
+          238
+        ],
+        [
+          115,
+          238
+        ],
+        [
+          115,
+          254
+        ]
+      ]
+    },
+    {
+      "from": "prepare",
+      "to": "technical",
+      "d": "M220 222L220 254",
+      "phase": 0,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          220,
+          222
+        ],
+        [
+          220,
+          254
+        ]
+      ]
+    },
+    {
+      "from": "prepare",
+      "to": "materials",
+      "d": "M220 238L317.0 238.0Q325 238 325.0 246.0L325 254",
+      "phase": 0,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          220,
+          238
+        ],
+        [
+          325,
+          238
+        ],
+        [
+          325,
+          254
+        ]
+      ]
+    },
+    {
+      "from": "indoor",
+      "to": "naturalSurvey",
+      "d": "M786 168L840.0 168.0Q850 168 850.0 158.0L850.0 155.0Q850 145 860.0 145.0L900 145",
+      "phase": 1,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          786,
+          168
+        ],
+        [
+          850,
+          168
+        ],
+        [
+          850,
+          145
+        ],
+        [
+          900,
+          145
+        ]
+      ]
+    },
+    {
+      "from": "indoor",
+      "to": "ownershipSurvey",
+      "d": "M850 168L850.0 187.0Q850 197 860.0 197.0L900 197",
+      "phase": 1,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          850,
+          168
+        ],
+        [
+          850,
+          197
+        ],
+        [
+          900,
+          197
+        ]
+      ]
+    },
+    {
+      "from": "verify",
+      "to": "boundaryCheck",
+      "d": "M786 406L840.0 406.0Q850 406 850.0 396.0L850.0 335.0Q850 325 860.0 325.0L900 325",
+      "phase": 1,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          786,
+          406
+        ],
+        [
+          850,
+          406
+        ],
+        [
+          850,
+          325
+        ],
+        [
+          900,
+          325
+        ]
+      ]
+    },
+    {
+      "from": "verify",
+      "to": "naturalCheck",
+      "d": "M850 406L850.0 387.0Q850 377 860.0 377.0L900 377",
+      "phase": 1,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          850,
+          406
+        ],
+        [
+          850,
+          377
+        ],
+        [
+          900,
+          377
+        ]
+      ]
+    },
+    {
+      "from": "verify",
+      "to": "ownershipCheck",
+      "d": "M850 406L850.0 419.0Q850 429 860.0 429.0L900 429",
+      "phase": 1,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          850,
+          406
+        ],
+        [
+          850,
+          429
+        ],
+        [
+          900,
+          429
+        ]
+      ]
+    },
+    {
+      "from": "verify",
+      "to": "relatedCheck",
+      "d": "M850 406L850.0 471.0Q850 481 860.0 481.0L900 481",
+      "phase": 1,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          850,
+          406
+        ],
+        [
+          850,
+          481
+        ],
+        [
+          900,
+          481
+        ]
+      ]
+    },
+    {
+      "from": "verify",
+      "to": "supplement",
+      "d": "M643 524L887.0 524.0Q897 524 897.0 534.0L897 567",
+      "phase": 1,
+      "kind": "condition",
+      "label": "权属不清、有争议或成果缺失",
+      "labelAt": [
+        881,
+        550
+      ],
+      "lines": null,
+      "points": [
+        [
+          643,
+          524
+        ],
+        [
+          897,
+          524
+        ],
+        [
+          897,
+          567
+        ]
+      ],
+      "anchor": "end"
+    },
+    {
+      "from": "supplement",
+      "to": "mapping",
+      "d": "M897 627L897.0 644.0Q897 654 887.0 654.0L850.0 654.0Q840 654 840.0 664.0L840 686",
+      "phase": 1,
+      "kind": "condition",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          897,
+          627
+        ],
+        [
+          897,
+          654
+        ],
+        [
+          840,
+          654
+        ],
+        [
+          840,
+          686
+        ]
+      ],
+      "anchor": "end"
+    },
+    {
+      "from": "supplement",
+      "to": "dispute",
+      "d": "M1025 597L1038 597Q1048 597 1048 587L1048 540Q1048 530 1058 530L1172 530Q1182 530 1182 540L1182 567",
+      "phase": 1,
+      "kind": "condition",
+      "label": "争议仍无法解决",
+      "labelAt": [
+        1166,
+        553
+      ],
+      "lines": null,
+      "points": [
+        [
+          1025,
+          597
+        ],
+        [
+          1048,
+          597
+        ],
+        [
+          1048,
+          530
+        ],
+        [
+          1182,
+          530
+        ],
+        [
+          1182,
+          567
+        ]
+      ],
+      "anchor": "end"
+    },
+    {
+      "from": "dispute",
+      "to": "mapping",
+      "d": "M1182 627L1182.0 710.0Q1182 716 1176.0 716.0L1170 716",
+      "phase": 1,
+      "kind": "condition",
+      "label": "争议解决或成果完善",
+      "labelAt": [
+        1166,
+        674
+      ],
+      "lines": null,
+      "points": [
+        [
+          1182,
+          627
+        ],
+        [
+          1182,
+          716
+        ],
+        [
+          1170,
+          716
+        ]
+      ],
+      "anchor": "end"
+    },
+    {
+      "from": "revision",
+      "to": "acceptance",
+      "d": "M1570 476L1570 580",
+      "phase": 2,
+      "kind": "branch",
+      "label": "",
+      "labelAt": null,
+      "lines": null,
+      "points": [
+        [
+          1570,
+          476
+        ],
+        [
+          1570,
+          580
+        ]
+      ]
+    }
+  ],
+  "bands": [
+    {
+      "name": "准备阶段",
+      "x": 20,
+      "y": 10,
+      "w": 400,
+      "height": 750,
+      "lines": [
+        "准备阶段"
+      ]
+    },
+    {
+      "name": "地籍调查阶段",
+      "x": 465,
+      "y": 10,
+      "w": 855,
+      "height": 750,
+      "lines": [
+        "地籍调查"
+      ]
+    },
+    {
+      "name": "数据建库",
+      "x": 1365,
+      "y": 10,
+      "w": 415,
+      "height": 750,
+      "lines": [
+        "数据建库"
+      ]
+    }
+  ],
+  "canvas": {
+    "width": 1800,
+    "height": 780,
+    "fps": 20,
+    "frames": 80
+  },
+  "style": "RiverAtlas reference three-column / Lanshu motion adaptation"
+}

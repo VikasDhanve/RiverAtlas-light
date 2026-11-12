@@ -1,0 +1,21 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),{chromium}=require('playwright'),{pathToFileURL}=require('url'),path=require('path'),fs=require('fs'),vm=require('vm');const url=pathToFileURL(path.resolve(__dirname,'../index.html')).href,c={};vm.runInNewContext(fs.readFileSync(path.resolve(__dirname,'../src/content.js'),'utf8')+';this.rows=RiverAtlasSlides[20].table.rows',c);
+
+test('第21页双列处室索引联动审核要点，放大字体并删除顶部说明',async()=>{
+ const b=await chromium.launch({channel:'chrome'}),p=await b.newPage({viewport:{width:1920,height:1080},offline:true,reducedMotion:'reduce'});
+ try{await p.goto(url+'#p21');const choices=p.locator('.audit-department-choice');assert.equal(await choices.count(),9);assert.equal(await p.locator('.audit-table,.slide-lead,.audit-help').count(),0);
+ assert.deepEqual(await p.locator('.audit-index-heads span').allTextContents(),['本项目涉及处室','省级部门（参照）']);
+ for(let i=0;i<9;i++){await choices.nth(i).hover();assert.equal(await choices.nth(i).getAttribute('aria-current'),'true');const detail=p.locator('.audit-detail:not([hidden])');assert.equal(await detail.locator('h2').textContent(),c.rows[i][0]);assert.equal(await detail.locator('.review-clause-text').textContent(),c.rows[i][2]);assert.equal(await choices.nth(i).locator('.audit-province-name').textContent(),c.rows[i][1]);}
+ await p.locator('#slide-title').hover();assert.equal(await choices.last().getAttribute('aria-current'),'true');await p.getByRole('button',{name:'恢复首项',exact:true}).click();assert.equal(await choices.first().getAttribute('aria-current'),'true');
+ assert.equal(await p.locator('.audit-department-name').first().evaluate(n=>getComputedStyle(n).fontSize),'22px');assert.equal(await p.locator('.audit-detail:not([hidden]) .review-clause-text').evaluate(n=>getComputedStyle(n).fontSize),'30px');
+ for(const control of await choices.all()){const r=await control.boundingBox();for(const span of await control.locator('span').all()){const t=await span.boundingBox();assert(t.y>=r.y-1&&t.y+t.height<=r.y+r.height+1);}}await p.screenshot({path:'backups/background-tabs-20261112/audit-reader-desktop.png'});await choices.nth(5).click();await p.screenshot({path:'backups/background-tabs-20261112/audit-reader-forest.png'});
+ await p.getByRole('button',{name:'下一项',exact:true}).click();assert.equal(await choices.nth(6).getAttribute('aria-current'),'true');await p.getByRole('button',{name:'上一项',exact:true}).click();assert.equal(await choices.nth(5).getAttribute('aria-current'),'true');
+ await p.locator('#slide-title').focus();await p.keyboard.press('ArrowRight');assert.match(await p.locator('#slide-title').innerText(),/外部审核/);await p.keyboard.press('ArrowLeft');assert.equal(await p.locator('.audit-department-choice').first().getAttribute('aria-current'),'true');
+ await p.goto(url+'#p8');assert.equal(await p.locator('.audit-department-choice').count(),0);
+ }finally{await b.close();}
+});
+test('第21页键盘方向定位与触屏点击均能切换阅读，手机不越界',async()=>{
+ const b=await chromium.launch({channel:'chrome'}),p=await b.newPage({viewport:{width:1920,height:1080},offline:true,reducedMotion:'reduce'});
+ try{await p.goto(url+'#p21');const choices=p.locator('.audit-department-choice');await choices.first().focus();await p.keyboard.press('ArrowDown');assert.equal(await choices.nth(1).evaluate(n=>n===document.activeElement),true);await p.keyboard.press('End');assert.equal(await choices.last().getAttribute('aria-current'),'true');assert.equal(await p.locator('#page-count').innerText(),'21 / 30');await p.keyboard.press('Home');await p.keyboard.press(' ');assert.equal(await choices.first().getAttribute('aria-pressed'),'true');
+ const touch=await b.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,offline:true,reducedMotion:'reduce'});await touch.goto(url+'#p21');await touch.locator('.audit-department-choice').nth(5).tap();assert.equal(await touch.locator('.audit-detail:not([hidden]) h2').textContent(),c.rows[5][0]);assert.equal(await touch.locator('.audit-department-choice[aria-current="true"]').count(),1);assert(await touch.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await touch.screenshot({path:'backups/background-tabs-20261112/audit-reader-mobile.png',fullPage:true});await touch.close();
+ }finally{await b.close();}
+});

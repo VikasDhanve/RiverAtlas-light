@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-11",
+  "presentationPages": [
+    9,
+    16
+  ],
+  "assets": [
+    {
+      "id": 501,
+      "file": "base.png",
+      "path": "assets/revision-1111/base.png",
+      "displayPath": "assets/revision-1111/base-preview.png",
+      "sourceFile": "assets/revision-1111/base.pdf",
+      "caption": "大沙河 · 工作底图",
+      "sha256": "26e857d883bb8f9b4e2704f475c835fc33de4866505e31f03066721483714346",
+      "sourceSha256": "bde39648e2d14d629878e32e371e7e51181eaa6dbae0e9dd1c27386b25726739",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\工作底图\\大沙河登记单元（210200331000003）底图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 502,
+      "file": "survey.png",
+      "path": "assets/revision-1111/survey.png",
+      "displayPath": "assets/revision-1111/survey-preview.png",
+      "sourceFile": "assets/revision-1111/survey.pdf",
+      "caption": "大沙河 · 三调底图",
+      "sha256": "e9c22028647b407791e12961cea2152365550ecc26012d75a8a043066e3d45cd",
+      "sourceSha256": "fe10250a30c98ec135f56f1939ab38b5d86e4756b9a031e32f503c8c499ed286",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\工作底图\\大沙河登记单元（210200331000003）底图三调.pdf",
+      "pages": 1
+    },
+    {
+      "id": 503,
+      "file": "ownership.png",
+      "path": "assets/revision-1111/ownership.png",
+      "displayPath": "assets/revision-1111/ownership-preview.png",
+      "sourceFile": "assets/revision-1111/ownership.pdf",
+      "caption": "大沙河 · 权属底图",
+      "sha256": "a221a60ae94fa814e12d3999dd1ca8ec07c48627235d59a04627254d6e1ec66c",
+      "sourceSha256": "0ea85796c8dabd90d8a3ef55cd1d6630b87988e8a3218dd2c52fde2de9b482ae",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\工作底图\\大沙河登记单元（210200331000003）底图权属.pdf",
+      "pages": 1
+    },
+    {
+      "id": 504,
+      "file": "control.png",
+      "path": "assets/revision-1111/control.png",
+      "displayPath": "assets/revision-1111/control-preview.png",
+      "sourceFile": "assets/revision-1111/control.pdf",
+      "caption": "大沙河 · 公共管制底图",
+      "sha256": "2dd00992e749fa32c881ea17ea8b3f77f5e61e43c57fbbc3cc7d1585dc4b4c54",
+      "sourceSha256": "d20faa4dcf69266b12c52a5acbbfeacc37a69c24236b1bc7ad316372dce9b711",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\工作底图\\大沙河登记单元（210200331000003）底图公共管制.pdf",
+      "pages": 1
+    },
+    {
+      "id": 511,
+      "file": "biliuhe-01.png",
+      "path": "assets/revision-1111/biliuhe-01.png",
+      "displayPath": "assets/revision-1111/biliuhe-01-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-01.pdf",
+      "caption": "碧流河 · 0000001+T72界址点点之记",
+      "sha256": "187ec70fd8992e278628b98c35b6cd15073b1aebe58c62e30515050951f978c6",
+      "sourceSha256": "acb2ab39bdbb3e437efa99fd1a3d67d1ac2ca86239211a22b8bf406e716deb14",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）0000001+T72界址点点之记.pdf",
+      "pages": 1
+    },
+    {
+      "id": 512,
+      "file": "biliuhe-02.png",
+      "path": "assets/revision-1111/biliuhe-02.png",
+      "displayPath": "assets/revision-1111/biliuhe-02-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-02.pdf",
+      "caption": "碧流河 · 公共管制和特殊保护关联图",
+      "sha256": "c6908a1fd4eec24d04fb4cbefa233e28a324a8648af17f50f1d1c65c84326b1e",
+      "sourceSha256": "8684c9291737f52e7ef2cfb982d1ff216b9b1a2030acb8df500b2a7d27b7b55b",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）公共管制和特殊保护关联图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 513,
+      "file": "biliuhe-03.png",
+      "path": "assets/revision-1111/biliuhe-03.png",
+      "displayPath": "assets/revision-1111/biliuhe-03-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-03.pdf",
+      "caption": "碧流河 · 地籍图",
+      "sha256": "d071c563375225612ecbf69a8230a76d523fc7b4cda3f07f107f55a5fe22487f",
+      "sourceSha256": "876500ceb7ae08e8766a97468cdef4418a62a57f58ceced905a89d417c972f2e",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）地籍图.pdf",
+      "pages": 7
+    },
+    {
+      "id": 514,
+      "file": "biliuhe-04.png",
+      "path": "assets/revision-1111/biliuhe-04.png",
+      "displayPath": "assets/revision-1111/biliuhe-04-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-04.pdf",
+      "caption": "碧流河 · 森林资源专题图",
+      "sha256": "0c4eb175925ad8a7b9c572d5b044b841e86333a78b76dd40da02646a36f740e7",
+      "sourceSha256": "0957cf6ac65c0301b58d5e5abc492f5548fc4247c3ee684f7df9402bede40bfe",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）森林资源专题图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 515,
+      "file": "biliuhe-05.png",
+      "path": "assets/revision-1111/biliuhe-05.png",
+      "displayPath": "assets/revision-1111/biliuhe-05-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-05.pdf",
+      "caption": "碧流河 · 湿地资源专题图",
+      "sha256": "cf4010d484f0315953e3af7db9151554b0d2b0e5dbe759acffe5ad123d6e904b",
+      "sourceSha256": "1f3cf7e96332c6aeec7920ff8475fe6ea030d24a696d01d996b0b3b15522f703",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）湿地资源专题图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 516,
+      "file": "biliuhe-06.png",
+      "path": "assets/revision-1111/biliuhe-06.png",
+      "displayPath": "assets/revision-1111/biliuhe-06-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-06.pdf",
+      "caption": "碧流河 · 登记单元遥感影像图",
+      "sha256": "b612cc88fd19c958dfb013b4240949ae017b6ab0523ade655a63eb0049e43d17",
+      "sourceSha256": "31c682ba9ad84f7478d2fdf803bbaaaff541f094450310f72ede7793d36e76cd",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）登记单元遥感影像图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 517,
+      "file": "biliuhe-07.png",
+      "path": "assets/revision-1111/biliuhe-07.png",
+      "displayPath": "assets/revision-1111/biliuhe-07-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-07.pdf",
+      "caption": "碧流河 · 自然资源现状图",
+      "sha256": "eb4f370a4e8eda5fc32a58b8ec84e8c0474f311dfd9eb97756299a5a58a28936",
+      "sourceSha256": "50f0308fe1eafba474de27443f6ed4c3a06d81f7453efdff12e962c90869585a",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）自然资源现状图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 518,
+      "file": "biliuhe-08.png",
+      "path": "assets/revision-1111/biliuhe-08.png",
+      "displayPath": "assets/revision-1111/biliuhe-08-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-08.pdf",
+      "caption": "碧流河 · 草原资源专题图",
+      "sha256": "f03cb162ff1365a657b2a1aced42303f519d1a7f33a4ad63a7b3e0cc9487aece",
+      "sourceSha256": "444489bee008ae6526d55d6b6f8252731c30d33bc52f6deb85968b4069ec0f61",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）草原资源专题图.pdf",
+      "pages": 1
+    },
+    {
+      "id": 519,
+      "file": "biliuhe-09.png",
+      "path": "assets/revision-1111/biliuhe-09.png",
+      "displayPath": "assets/revision-1111/biliuhe-09-preview.png",
+      "sourceFile": "assets/revision-1111/biliuhe-09.pdf",
+      "caption": "碧流河 · 荒地资源专题图",
+      "sha256": "695fde4291d7bc1fbfdde7c6016b51cf307a6eb361504d43db1e93176b61d14b",
+      "sourceSha256": "928ed80a97c36200f57df4c7552473379e98cf351bd74e80bc000367ff628909",
+      "source": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材（1111）\\11.11修改   PPT\\碧流河专题图\\碧流河登记单元（210200331000005）荒地资源专题图.pdf",
+      "pages": 1
+    }
+  ],
+  "replacedAsset": 107,
+  "retainedExistingPage16": [
+    301,
+    302,
+    303
+  ],
+  "previewPolicy": "每份PDF以首页作为图库入口；地籍图为7页，完整PDF保留全部页面。"
+}

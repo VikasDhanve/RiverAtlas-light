@@ -1,0 +1,18 @@
+{
+  "name": "river-atlas-light",
+  "version": "2.6.0",
+  "private": true,
+  "description": "RiverAtlas浅色投影版：30页离线交互汇报",
+  "scripts": {
+    "test": "node --test --test-concurrency=2 tests/*.test.cjs",
+    "vendor": "node scripts/vendor.cjs",
+    "check:projection": "node scripts/inspect-projection.cjs"
+  },
+  "dependencies": {
+    "gsap": "3.15.1",
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0"
+  }
+}

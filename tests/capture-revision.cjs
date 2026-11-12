@@ -1,0 +1,32 @@
+'use strict';
+const {chromium}=require('playwright');
+const fs=require('node:fs'),path=require('node:path');
+const {pathToFileURL}=require('node:url');
+(async()=>{
+  const out=path.resolve('.impeccable/review'); fs.mkdirSync(out,{recursive:true});
+  const browser=await chromium.launch({channel:'chrome'});
+  const context=await browser.newContext({viewport:{width:1920,height:1080},offline:true,
+    recordVideo:{dir:path.join(out,'video'),size:{width:1280,height:720}}});
+  const page=await context.newPage(); const url=pathToFileURL(path.resolve('index.html')).href;
+  await page.goto(url); await page.waitForTimeout(2000);
+  await page.screenshot({path:path.join(out,'landscape-02s.png')});
+  await page.waitForTimeout(4000);
+  await page.screenshot({path:path.join(out,'landscape-06s.png')});
+  await page.locator('#pause-button').click();
+  await page.screenshot({path:path.join(out,'landscape-paused.png')});
+  const frame=await page.locator('.landscape-canvas').getAttribute('data-frame');
+  await page.waitForTimeout(500);
+  console.log('Landscape paused frame:',frame,await page.locator('.landscape-canvas').getAttribute('data-frame'));
+  await page.goto(url+'#p4'); await page.getByRole('button',{name:'《辽宁省自然资源统一确权登记工作总体方案》',exact:true}).hover(); await page.waitForTimeout(1000);
+  await page.screenshot({path:path.join(out,'policy-motion.png')});
+  await page.goto(url+'#p8'); await page.waitForTimeout(2400);
+  await page.screenshot({path:path.join(out,'layers-motion.png')});
+  await page.locator('#play-button').click(); await page.waitForTimeout(4500);
+  await page.goto(url+'#p14'); await page.waitForTimeout(1800);
+  await page.screenshot({path:path.join(out,'business-large.png')});
+  await page.goto(url+'#p22'); await page.getByRole('button',{name:'政策文件',exact:true}).click();
+  await page.waitForTimeout(1000); await page.screenshot({path:path.join(out,'audit-documents.png')});
+  const video=page.video(); await page.close(); await context.close();
+  await video.saveAs(path.join(out,'RiverAtlas-v1.1-preview.webm'));
+  await browser.close(); console.log('Revision motion evidence captured.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

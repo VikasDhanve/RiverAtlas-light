@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-11",
+  "presentationPage": 18,
+  "removed": 27,
+  "assets": [
+    {
+      "id": 521,
+      "path": "assets/revision-1111/deliverables-1.png",
+      "file": "deliverables-1.png",
+      "caption": "成果目录",
+      "source": "C:\\Users\\yamal\\iCloudDrive\\iCloud~md~obsidian\\MyObsidianDB\\Codex Attachments\\image.png",
+      "sha256": "e30416b309be5f3f887d07ebc621d10c8a657e06ac84f091f76862ce73c6d134",
+      "displayPath": "assets/revision-1111/deliverables-1-expanded.png",
+      "displaySha256": "13836833abf86e9967bab50f6d8b3ce477c105aef5d8da792f2d760dc10c0195",
+      "editMethod": "built-in image_gen AI outpainting",
+      "prompt": "Edit target: attached screenshot of six yellow folders with Chinese names. AI outpaint the image horizontally to a landscape canvas aspect ratio 1.93:1 (e.g. 1544x800), matching a presentation card. Preserve the six rows, all Chinese text, yellow folder icons, their proportions and relative positions exactly. Keep the original screenshot content centered and as large as fits without clipping, extend only the existing pure white file-list background to the new edges. No new rows, no new words, no decorative elements, no stretching, no changing filenames, no frame. Output a single expanded image."
+    },
+    {
+      "id": 522,
+      "path": "assets/revision-1111/deliverables-2.png",
+      "file": "deliverables-2.png",
+      "caption": "文字报告清单",
+      "source": "C:\\Users\\yamal\\iCloudDrive\\iCloud~md~obsidian\\MyObsidianDB\\Codex Attachments\\image 2.png",
+      "sha256": "b966593b0b55747e4dfa66a01a7de4dd656306283f08c57d6015a9e25260240b",
+      "displayPath": "assets/revision-1111/deliverables-2-expanded.png",
+      "displaySha256": "4b0b12f4c1cabe6bfaffc8d2c279c3a875264eb9e8f4170ecfcf81c56c7946a0",
+      "editMethod": "built-in image_gen AI outpainting",
+      "prompt": "Edit target: attached screenshot of five Word document filenames. AI outpaint the image vertically to a landscape canvas aspect ratio 1.93:1 (e.g. 1544x800), matching a presentation card. Preserve the five rows, every Chinese character and .docx extension, blue Word icons, proportions and relative positions exactly. Keep the original screenshot content centered and as large as fits without clipping, extend only the existing pure white file-list background to the top and bottom edges. No new rows, no new words, no decorative elements, no stretching, no changing filenames, no frame. Output a single expanded image."
+    },
+    {
+      "id": 523,
+      "path": "assets/revision-1111/deliverables-3.png",
+      "file": "deliverables-3.png",
+      "caption": "图件成果清单",
+      "source": "C:\\Users\\yamal\\iCloudDrive\\iCloud~md~obsidian\\MyObsidianDB\\Codex Attachments\\image 3.png",
+      "sha256": "cdd63763de99d2901ef125688fa7a594d255608dac906aca6a1bc15e63be7a1f",
+      "displayPath": "assets/revision-1111/deliverables-3-expanded.png",
+      "displaySha256": "9ed95d98a8888ffbea6240e23af8722be8b24b71f1e62feb129ee34509c87bf0",
+      "editMethod": "built-in image_gen AI outpainting",
+      "prompt": "Edit target: attached screenshot of PDF filenames for 碧流河登记单元（21020033100005）. AI outpaint horizontally to a panoramic landscape canvas aspect ratio 2.8:1 (e.g. 2240x800), matching a presentation card. Preserve the existing rows, all Chinese text, numeric identifiers, .pdf extensions and orange PDF icons, proportions and relative positions exactly. Keep the original screenshot content centered and as large as fits without clipping, extend only the existing pure white file-list background to left and right edges. Do not complete or invent any row at the cropped bottom. No new rows, no new words, no decorative elements, no stretching, no changing filenames, no frame. Output a single expanded image."
+    }
+  ]
+}

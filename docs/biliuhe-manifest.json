@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-06",
+  "sourceDirectory": "D:\\WorkSpace Management\\项目管理\\集团技术支持\\测绘院汇报材料编制【测绘院&孙颖20261106】\\原始汇报材料素材\\碧流河专题图",
+  "inputs": [
+    {
+      "file": "碧流河登记单元（210200331000005）0000001+T26界址点点之记.pdf",
+      "bytes": 251045,
+      "sha256": "b5e64d03f734287cd93c2da2bb7b649c24a8c20cdef78275ba313933e1a3f8d2"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）公共管制和特殊保护关联图.pdf",
+      "bytes": 836741,
+      "sha256": "8684c9291737f52e7ef2cfb982d1ff216b9b1a2030acb8df500b2a7d27b7b55b"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）森林资源专题图.pdf",
+      "bytes": 915213,
+      "sha256": "0957cf6ac65c0301b58d5e5abc492f5548fc4247c3ee684f7df9402bede40bfe"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）湿地资源专题图.pdf",
+      "bytes": 674718,
+      "sha256": "1f3cf7e96332c6aeec7920ff8475fe6ea030d24a696d01d996b0b3b15522f703"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）登记单元遥感影像图.pdf",
+      "bytes": 6196044,
+      "sha256": "31c682ba9ad84f7478d2fdf803bbaaaff541f094450310f72ede7793d36e76cd"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）自然资源现状图.pdf",
+      "bytes": 510373,
+      "sha256": "50f0308fe1eafba474de27443f6ed4c3a06d81f7453efdff12e962c90869585a"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）草原资源专题图.pdf",
+      "bytes": 706311,
+      "sha256": "444489bee008ae6526d55d6b6f8252731c30d33bc52f6deb85968b4069ec0f61"
+    },
+    {
+      "file": "碧流河登记单元（210200331000005）荒地资源专题图.pdf",
+      "bytes": 656829,
+      "sha256": "928ed80a97c36200f57df4c7552473379e98cf351bd74e80bc000367ff628909"
+    }
+  ],
+  "assets": [
+    {
+      "id": 201,
+      "path": "assets/biliuhe/asset-201.png",
+      "displayPath": "assets/biliuhe/asset-201-view.png",
+      "caption": "碧流河 · 登记单元遥感影像图",
+      "source": "碧流河登记单元（210200331000005）登记单元遥感影像图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 202,
+      "path": "assets/biliuhe/asset-202.png",
+      "displayPath": "assets/biliuhe/asset-202-view.png",
+      "caption": "碧流河 · 自然资源现状图",
+      "source": "碧流河登记单元（210200331000005）自然资源现状图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 203,
+      "path": "assets/biliuhe/asset-203.png",
+      "displayPath": "assets/biliuhe/asset-203-view.png",
+      "caption": "碧流河 · 公共管制和特殊保护关联图",
+      "source": "碧流河登记单元（210200331000005）公共管制和特殊保护关联图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 204,
+      "path": "assets/biliuhe/asset-204.png",
+      "displayPath": "assets/biliuhe/asset-204-view.png",
+      "caption": "碧流河 · 森林资源专题图",
+      "source": "碧流河登记单元（210200331000005）森林资源专题图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 205,
+      "path": "assets/biliuhe/asset-205.png",
+      "displayPath": "assets/biliuhe/asset-205-view.png",
+      "caption": "碧流河 · 湿地资源专题图",
+      "source": "碧流河登记单元（210200331000005）湿地资源专题图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 206,
+      "path": "assets/biliuhe/asset-206.png",
+      "displayPath": "assets/biliuhe/asset-206-view.png",
+      "caption": "碧流河 · 草原资源专题图",
+      "source": "碧流河登记单元（210200331000005）草原资源专题图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 207,
+      "path": "assets/biliuhe/asset-207.png",
+      "displayPath": "assets/biliuhe/asset-207-view.png",
+      "caption": "碧流河 · 荒地资源专题图",
+      "source": "碧流河登记单元（210200331000005）荒地资源专题图.pdf",
+      "page": 1,
+      "rotation": 0
+    },
+    {
+      "id": 208,
+      "path": "assets/biliuhe/asset-208.png",
+      "displayPath": "assets/biliuhe/asset-208-view.png",
+      "caption": "碧流河 · 0000001+T26界址点点之记",
+      "source": "碧流河登记单元（210200331000005）0000001+T26界址点点之记.pdf",
+      "page": 1,
+      "rotation": 0
+    }
+  ]
+}

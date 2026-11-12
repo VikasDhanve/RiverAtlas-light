@@ -1,0 +1,21 @@
+'use strict';
+const {chromium}=require('playwright');
+const fs=require('node:fs'),path=require('node:path');
+const {pathToFileURL}=require('node:url');
+(async()=>{
+ const out=path.resolve('.impeccable/review/policy');fs.mkdirSync(out,{recursive:true});
+ const browser=await chromium.launch({channel:'chrome'});
+ const context=await browser.newContext({viewport:{width:1920,height:1080},offline:true,recordVideo:{dir:path.join(out,'video'),size:{width:1280,height:720}}});
+ const page=await context.newPage();const url=pathToFileURL(path.resolve('index.html')).href+'#p4';
+ await page.goto(url);await page.waitForTimeout(1200);await page.screenshot({path:path.join(out,'overview.png')});
+ console.log(await page.locator('.policy-directory,.policy-window').evaluateAll(nodes=>nodes.map(n=>({name:n.className,width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}))));
+ const province=page.getByRole('button',{name:'《辽宁省自然资源统一确权登记工作总体方案》',exact:true});
+ await province.hover();await page.waitForTimeout(500);await page.screenshot({path:path.join(out,'province-hover.png')});
+ await province.click();await page.locator('#slide-title').hover();await page.waitForTimeout(400);await page.screenshot({path:path.join(out,'province-pinned.png')});
+ await page.locator('.policy-sheet:not([hidden]) img').hover();await page.waitForTimeout(500);await page.screenshot({path:path.join(out,'document-zoom.png')});await page.waitForTimeout(1200);
+ await page.getByRole('button',{name:'恢复默认',exact:true}).click();await page.waitForTimeout(400);await page.screenshot({path:path.join(out,'restored.png')});
+ const video=page.video();await page.close();await context.close();await video.saveAs(path.join(out,'RiverAtlas-page3-policy-preview.webm'));
+ const mobile=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,isMobile:true,reducedMotion:'reduce',offline:true});
+ await mobile.goto(url);await mobile.waitForTimeout(400);await mobile.screenshot({path:path.join(out,'mobile.png'),fullPage:true});
+ await browser.close();console.log('Policy directory, manual selection, fixed reading and zoom captured.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

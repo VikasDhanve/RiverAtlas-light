@@ -1,0 +1,7 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),path=require('path'),crypto=require('crypto'),{spawnSync}=require('child_process');const root=path.resolve(__dirname,'..');
+test('浅色版逐30页检查语义文字对比度，无脚本错误或外网请求',()=>{
+ const r=spawnSync(process.execPath,['scripts/inspect-projection.cjs'],{cwd:root,encoding:'utf8',timeout:90000});assert.equal(r.status,0,r.stderr);const report=JSON.parse(fs.readFileSync(path.join(root,'backups/light-projection-20261112/contrast-audit.json'),'utf8'));assert.equal(report.pages.length,30);assert.deepEqual(report.errors,[]);assert.deepEqual(report.remote,[]);assert(report.pages.reduce((n,p)=>n+p.checked,0)>800);for(const p of report.pages){assert.equal(p.lows.length,0,'低对比页面'+p.page+': '+JSON.stringify(p.lows));assert(p.count.endsWith(' / 30'));}
+});
+test('浅色版30页业务数据与所有原始图像资源保持父版字节一致，离线入口不加载装饰脚本',()=>{
+ const m=JSON.parse(fs.readFileSync(path.join(root,'docs/light-fork-manifest.json'),'utf8'));for(const [file,sha]of Object.entries(m.unchangedDataAndAssets))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'),sha,file);const html=fs.readFileSync(path.join(root,'index.html'),'utf8');assert.match(html,/content="light"/);assert.doesNotMatch(html,/src="src\/(stars|landscape|landscape-texture)\.js"/);assert.match(fs.readFileSync(path.join(root,'.gitignore'),'utf8'),/backups\//);assert.match(fs.readFileSync(path.join(root,'.gitignore'),'utf8'),/node_modules\//);
+});

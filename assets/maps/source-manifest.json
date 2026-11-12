@@ -1,0 +1,209 @@
+{
+  "prepared": "2026-11-06",
+  "coordinateSystem": "WGS84 longitude/latitude; rendered EPSG:3857",
+  "riverSources": [
+    {
+      "name": "登沙河",
+      "osmWayIds": [
+        1251036903
+      ],
+      "namedetails": [
+        {
+          "name": "登沙河"
+        }
+      ],
+      "query": "https://nominatim.openstreetmap.org/search",
+      "note": "仅采用返回的河流线，不插值补绘缺段。"
+    },
+    {
+      "name": "大沙河",
+      "osmWayIds": [
+        330409531,
+        330409546,
+        330409521,
+        114875122,
+        330409554
+      ],
+      "namedetails": [
+        {
+          "name": "沙河",
+          "name:en": "Sha River",
+          "name:zh": "沙河",
+          "alt_name": "大沙河",
+          "alt_name:en": "Dasha River",
+          "name:zh-Latn-pinyin": "shā hé",
+          "alt_name:zh-Latn-pinyin": "dàshā hé"
+        },
+        {
+          "name": "沙河",
+          "name:en": "Sha River",
+          "name:zh": "沙河",
+          "alt_name": "大沙河",
+          "alt_name:en": "Dasha River",
+          "name:zh-Latn-pinyin": "shā hé",
+          "alt_name:zh-Latn-pinyin": "dàshā hé"
+        },
+        {
+          "name": "沙河",
+          "name:en": "Sha River",
+          "name:zh": "沙河",
+          "alt_name": "大沙河",
+          "alt_name:en": "Dasha River",
+          "name:zh-Latn-pinyin": "shā hé",
+          "alt_name:zh-Latn-pinyin": "dàshā hé"
+        },
+        {
+          "name": "沙河",
+          "name:en": "Sha River",
+          "name:zh": "沙河",
+          "alt_name": "大沙河",
+          "alt_name:en": "Dasha River",
+          "name:zh-Latn-pinyin": "shā hé",
+          "alt_name:zh-Latn-pinyin": "dàshā hé"
+        },
+        {
+          "name": "沙河",
+          "name:en": "Sha River",
+          "name:zh": "沙河",
+          "alt_name": "大沙河",
+          "alt_name:en": "Dasha River",
+          "name:zh-Latn-pinyin": "shā hé",
+          "alt_name:zh-Latn-pinyin": "dàshā hé"
+        }
+      ],
+      "query": "https://nominatim.openstreetmap.org/search",
+      "note": "仅采用返回的河流线，不插值补绘缺段。"
+    },
+    {
+      "name": "浮渡河",
+      "osmWayIds": [
+        153301585,
+        71830299,
+        153301591
+      ],
+      "namedetails": [
+        {
+          "name": "浮渡河",
+          "name:en": "Fudu River",
+          "name:zh": "浮渡河",
+          "name:zh-Latn-pinyin": "fúdù hé"
+        }
+      ],
+      "query": "https://nominatim.openstreetmap.org/search",
+      "note": "浮渡河含两个同节点流入的无名上游河段，按拓扑作为相连水系展示；不据此确定登记范围。"
+    },
+    {
+      "name": "碧流河",
+      "osmWayIds": [
+        153354933,
+        153354916
+      ],
+      "namedetails": [
+        {
+          "name": "碧流河",
+          "name:en": "Biliu River",
+          "name:zh": "碧流河",
+          "name:zh-Latn-pinyin": "bìliú hé"
+        },
+        {
+          "name": "碧流河",
+          "name:en": "Biliu River",
+          "name:zh": "碧流河",
+          "name:zh-Latn-pinyin": "bìliú hé"
+        }
+      ],
+      "query": "https://nominatim.openstreetmap.org/search",
+      "note": "仅采用返回的河流线，不插值补绘缺段。"
+    },
+    {
+      "name": "英那河",
+      "osmWayIds": [
+        153318115,
+        324589783,
+        153318148,
+        153318117,
+        153318112,
+        48403386
+      ],
+      "namedetails": [
+        {
+          "name": "英那河",
+          "name:en": "Yingna River",
+          "name:zh": "英那河",
+          "name:zh-Latn-pinyin": "yīngnà hé"
+        },
+        {
+          "name": "英那河"
+        },
+        {
+          "name": "英那河"
+        },
+        {
+          "name": "英那河",
+          "name:en": "Yingna River",
+          "name:zh": "英那河",
+          "name:zh-Latn-pinyin": "yīngnà hé"
+        },
+        {
+          "name": "英那河",
+          "name:en": "Yingna River",
+          "name:zh": "英那河",
+          "name:zh-Latn-pinyin": "yīngnà hé"
+        },
+        {
+          "name": "英那河"
+        }
+      ],
+      "query": "https://nominatim.openstreetmap.org/search",
+      "note": "仅采用返回的河流线，不插值补绘缺段。"
+    }
+  ],
+  "regionRelations": [
+    {
+      "name": "瓦房店市",
+      "osmRelationId": 2764631
+    },
+    {
+      "name": "普兰店区",
+      "osmRelationId": 2764630
+    },
+    {
+      "name": "庄河市",
+      "osmRelationId": 2764632
+    },
+    {
+      "name": "金州区",
+      "osmRelationId": 2764629
+    }
+  ],
+  "waterSources": [
+    {
+      "name": "碧流河水库",
+      "osmId": 2069186
+    },
+    {
+      "name": "英那河水库",
+      "osmId": 153318124
+    },
+    {
+      "name": "刘大水库",
+      "osmId": 153318105
+    }
+  ],
+  "landSource": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+  "landClipBounds": [
+    118,
+    36,
+    127,
+    44
+  ],
+  "landSimplifyDegrees": 0.00035,
+  "limitations": [
+    "地理位置及公开水系，不是项目登记单元/管理范围界线。",
+    "公开水系存在缺段和未命名支流；不补绘、不计算五河长度面积。",
+    "浮渡河两个无名相连上游河段按OSM节点拓扑作为水系显示。",
+    "大沙河数据主名为沙河，alt_name为大沙河，已核对别名。",
+    "动态流光仅为讲解效果，不代表实测流速或水文模拟。"
+  ],
+  "landClipNote": "扩展裁切边界至可视视域之外，避免把裁切框画成海岸线。"
+}
